@@ -6,3 +6,5 @@
 将下载好的文件移动到D:\Microsoft Visual Studio，新建了一个名为Tools的文件夹，然后解压**vcpkg-master**
 ## 3.进入到vcpkg-master文件中 运行下列代码
     .\vcpkg\bootstrap-vcpkg.bat
+    vcpkg install sqlite3
+再打开VS，弹出提示进行配置安装即可
