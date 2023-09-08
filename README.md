@@ -8,3 +8,15 @@
     .\vcpkg\bootstrap-vcpkg.bat
     vcpkg install sqlite3
 再打开VS，弹出提示进行配置安装即可
+## 4.在VS中新建一个项目输入下面代码进行测试成功与否
+
+```
+// main.cpp
+#include <sqlite3.h>
+#include <stdio.h>
+
+int main()
+{
+    printf("%s\n", sqlite3_libversion());
+    return 0;
+}
